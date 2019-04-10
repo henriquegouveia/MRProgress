@@ -2,9 +2,19 @@
 //  MRProgress.h
 //  MRProgress
 //
-//  Created by Marius Rackwitz on 20.10.13.
-//  Copyright (c) 2013 Marius Rackwitz. All rights reserved.
+//  Created by Henrique Gouveia on 10/04/2019.
+//  Copyright © 2019 Marius Rackwitz. All rights reserved.
 //
+
+#import <UIKit/UIKit.h>
+
+//! Project version number for MRProgress.
+FOUNDATION_EXPORT double MRProgressVersionNumber;
+
+//! Project version string for MRProgress.
+FOUNDATION_EXPORT const unsigned char MRProgressVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <MRProgress/PublicHeader.h>
 
 #if __has_include(<MRProgress/MRActivityIndicatorView.h>)
 #import <MRProgress/MRActivityIndicatorView.h>
