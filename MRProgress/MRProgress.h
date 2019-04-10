@@ -48,3 +48,15 @@ FOUNDATION_EXPORT const unsigned char MRProgressVersionString[];
 #if __has_include(<MRProgress/MRWeakProxy.h>)
 #import <MRProgress/MRWeakProxy.h>
 #endif
+
+#if __has_include(<MRProgress/MRMethodCopier.h>)
+#import <MRProgress/MRMethodCopier.h>
+#endif
+
+#if __has_include(<MRProgress/MRStopButton.h>)
+#import <MRProgress/MRStopButton.h>
+#endif
+
+#if __has_include(<MRProgress/MRProgressHelper.h>)
+#import <MRProgress/MRProgressHelper.h>
+#endif
